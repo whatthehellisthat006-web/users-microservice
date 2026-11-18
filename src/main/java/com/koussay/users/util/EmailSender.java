@@ -1,0 +1,6 @@
+package com.koussay.users.util;
+
+public interface EmailSender {
+    void sendEmail(String toEmail, String body);
+}
+
